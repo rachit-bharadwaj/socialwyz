@@ -1,0 +1,40 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+/* root */
+:root {
+  --bluish: #004e64;
+  --greenish: #00ad13;
+  --lightgreen: #d1fadf;
+  --yellowish: #ffd41d;
+  --purplish: #db00ff;
+  --senary: #999;
+}
+
+/* colors */
+.text-bluish {
+  color: var(--bluish);
+}
+.text-greenish {
+  color: var(--greenish);
+}
+.text-purplish {
+  color: var(--purplish);
+}
+
+/* bg colors */
+.bg-greenish {
+  background-color: var(--greenish);
+}
+.bg-lightgreen {
+  background-color: var(--lightgreen);
+}
+.bg-yellowish {
+  background-color: var(--yellowish);
+}
+
+/* fonts */
+.font-space {
+  font-family: "Space Grotesk", sans-serif;
+}

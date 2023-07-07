@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- title -->
+    <title>Socialwyz</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="p-3 flex justify-between">
+      <h1 class="font-bold text-xl">LOGO</h1>
+
+      <div class="cursor-pointer">
+        <img
+          src="/public/menu.svg"
+          alt="menu"
+          class="h-7"
+          id="hamburger"
+          onclick="openMenu()"
+        />
+        <p class="text-2xl hidden" id="cross" onclick="closeMenu()">X</p>
+      </div>
+
+      <!-- mobile menu -->
+      <div id="menu" class="hidden absolute right-3 top-10 z-50">
+        <ul class="bg-gray-900 text-white p-5 rounded">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="p-5 flex flex-col gap-10 my-10">
+      <p class="text-bluish font-space text-4xl font-bold text-center">
+        Empowering Communities for a More Just and <br />
+        <span class="text-greenish">Equitable World</span>
+      </p>
+      <p class="text-xl text-center">
+        Our mission at is to address complex social issues through
+        entrepreneurial projects.
+      </p>
+
+      <button
+        class="bg-greenish font-bold w-fit mx-auto px-5 py-3 text-xl text-white border border-black rounded shadow shadow-black"
+      >
+        Join the tribe
+      </button>
+    </section>
+
+    <!-- image after hero section -->
+    <div class="p-10">
+      <img src="/public/hero-img.svg" alt="people img" />
+    </div>
+
+    <!-- join the tribe section -->
+    <section class="bg-lightgreen border border-black">
+      <img src="/public/tribe-sec.svg" alt="tribe section" />
+    </section>
+
+    <!-- services -->
+    <section class="bg-yellowish p-5 flex flex-col gap-10">
+      <p class="font-bold font-space text-4xl text-center mt-10">
+        <span class="text-purplish">Creating Lasting Impact,</span> One Project
+        at a Time.
+      </p>
+      <img
+        src="/public/blossom.svg"
+        alt="blossom illustration"
+        class="-mt-24 h-10 w-10 ml-56"
+      />
+
+      <p>
+        From promoting financial stability to enhancing mental well-being, we're
+        committed to addressing complex social issues in a way that's impactful,
+        sustainable, and empowering.
+      </p>
+    </section>
+
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>
