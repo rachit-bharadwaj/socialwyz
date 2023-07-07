@@ -5,11 +5,12 @@
 /* root */
 :root {
   --bluish: #004e64;
+  --blue-light: #d7f7ff;
   --greenish: #00ad13;
-  --lightgreen: #d1fadf;
+  --green-light: #d1fadf;
   --yellowish: #ffd41d;
   --purplish: #db00ff;
-  --senary: #999;
+  --purple-dark: #8f00ff;
 }
 
 /* colors */
@@ -22,16 +23,22 @@
 .text-purplish {
   color: var(--purplish);
 }
+.text-purple-dark {
+  color: var(--purple-dark);
+}
 
 /* bg colors */
 .bg-greenish {
   background-color: var(--greenish);
 }
-.bg-lightgreen {
-  background-color: var(--lightgreen);
+.bg-green-light {
+  background-color: var(--green-light);
 }
 .bg-yellowish {
   background-color: var(--yellowish);
+}
+.bg-blue-light {
+  background-color: var(--blue-light);
 }
 
 /* fonts */
